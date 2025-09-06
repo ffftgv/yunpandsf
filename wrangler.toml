@@ -1,0 +1,18 @@
+name = "cloud-drive"
+main = "backend/index.js"
+compatibility_date = "2025-09-06"
+
+[[r2_buckets]]
+binding = "R2_BINDING_Y1"
+bucket_name = "bucket-y1"
+preview_bucket_name = "preview-bucket-y1"
+
+[[r2_buckets]]
+binding = "R2_BINDING_Y2"
+bucket_name = "bucket-y2"
+preview_bucket_name = "preview-bucket-y2"
+
+[[r2_buckets]]
+binding = "R2_BINDING_Y3"
+bucket_name = "bucket-y3"
+preview_bucket_name = "preview-bucket-y3"

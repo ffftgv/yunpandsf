@@ -1,0 +1,15 @@
+{
+  "name": "cloud-drive",
+  "version": "1.0.0",
+  "description": "基于Cloudflare Worker和R2的云盘项目",
+  "main": "backend/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
